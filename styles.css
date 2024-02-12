@@ -8,8 +8,7 @@ body {
   background-position: top center;
   background-size: 100% auto;
   background-image: url(./assets/bg.jpg);
-  backdrop-filter:  blur(1.5px);
-  -webkit-backdrop-filter: blur(1.5px);
+  
   
 }
 body *{
