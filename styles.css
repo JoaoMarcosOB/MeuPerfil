@@ -5,8 +5,7 @@
 }
 
 body {
-  background-position: top center;
-  background-size: 100% auto;
+  background-size: 100%;
   background-image: url(./assets/bg.jpg);
   
   
@@ -31,22 +30,16 @@ header div {
 header div img {
   width: 100%;
   border-radius: 50%;
-  
+}
 
-}
-header div:hover {
-  transform: scale(1.2);
-  transition: transform .3s;
-}
 main {
   max-width: 580px;
   width: 90%;
   margin: 32px auto;
   display: grid;
   gap: 24px;
-  
-
 }
+
 section {
   color: white;
   background-image: linear-gradient(90deg, orangered 0%, green 100%);
@@ -58,11 +51,12 @@ section div {
   padding: 32px;
   padding-top: 24px;
   border-radius: 8px;
-  
 }
+
 section h2 {
   letter-spacing: -0.47px;
 }
+
 section p {
   color: lightgray;
   letter-spacing: -0.18px;
@@ -72,11 +66,10 @@ section ul {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
-  
   list-style: none;
   margin-top: 24px;
-  
 }
+
 .projects-list img{
   width: 90px;
   height: 120px;
@@ -85,12 +78,17 @@ section ul {
 }
 .projects-list img:hover{
   border: 2px solid orangered;
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: transform .3s;
 }
+
 svg:hover {
   transform: scale(1.2);
   transition: transform .3s;
+}
+.projects-list p {
+  text-align: center;
+  font-size: 12px;
 }
 /* animation */
 header div{
