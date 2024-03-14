@@ -21,10 +21,9 @@ header {
 header div {
   width: 120px;
   margin: auto;
-  background-image: linear-gradient(90deg, orangered 0%, green 100%);
+  border: 2px solid white;
   border-radius: 50%;
   display: flex;
-  padding: 4px;
 
 }
 header div img {
@@ -37,20 +36,22 @@ main {
   width: 90%;
   margin: 32px auto;
   display: grid;
-  gap: 24px;
+  gap: 10px;
 }
 
 section {
   color: white;
-  background-image: linear-gradient(90deg, orangered 0%, green 100%);
-  padding-top: 4px;
-  border-radius: 10px;
+  background-image: transparent;
+  border-radius: 8px;
+  border: 2px solid white;
+  text-shadow: 3px 3px 3px black;
 }
 section div {
-  background-color: black;
   padding: 20px;
   padding-top: 20px;
   border-radius: 8px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
 section h2 {
@@ -59,7 +60,7 @@ section h2 {
 }
 
 section p {
-  color: lightgray;
+  color: white;
   letter-spacing: -0.18px;
   text-align: center;
 }
@@ -81,7 +82,7 @@ section ul {
   
 }
 .projects-list img:hover{
-  border: 2px solid orangered;
+  border: 2px solid white;
   transform: scale(1.2);
   transition: transform .3s;
 }
